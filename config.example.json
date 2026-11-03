@@ -1,0 +1,14 @@
+{
+  "emulator": "dependencies/android-classic/tools/emulator.exe",
+  "kernel": "inputs/kernel-qemu-armv7",
+  "system_image": "inputs/SYST.img",
+  "ramdisk_cpio": "inputs/ramdisk.cpio",
+  "userdata_image": "inputs/userdata.img",
+  "android_jar": "dependencies/android-sdk/platforms/android-34/android.jar",
+  "d8_jar": "dependencies/android-sdk/build-tools/34.0.0/lib/d8.jar",
+  "java": "java",
+  "javac": "javac",
+  "port": 5570,
+  "memory_mb": 512,
+  "interactive": true
+}
